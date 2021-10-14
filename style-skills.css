@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+:root {
+  --font-bold: 'Poppins', sans-serif;
+  --font-light: 'Roboto', sans-serif;
+  --main-color: #6610f2;
+  --bg-color: #111111;
+  --bg-colorTwo: #1e1e1e;
+  --txt-color: #fff;
+}
+
+
+/*--- Menu---*/
+a {
+  color: var(--txt-color);
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: var(--font-bold);
+  height: 12vh;
+  background: var(--bg-color);
+}
+
+.box {
+  width: 45px;
+  height: 45px;
+  border-radius: 10px;
+  background: var(--main-color);
+  margin-left: 60px;
+}
+
+.logo {
+  font: 700 2.1rem 'Poppins', sans-serif;
+  padding-right: 49%;
+}
+
+.nav-list {
+  display: flex;
+  padding-right: 10%;
+}
+
+.nav-list li {
+  letter-spacing: 2px;
+  margin-left: 30px;
+  padding-right: 10px;
+}
+
+.nav-list li a {
+  font-family: var(--font-light);
+  font-size: 18px;
+  margin-left: 0;
+}
+
+body {
+  color: var(--txt-color);
+  font: 400 1rem 'Poppins', sans-serif;
+  background: var(--bg-color);
+}
+
+main {
+  width: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/*--- Home ---*/
+
+h2 {
+  font: 700 2.1rem 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.section {
+  padding: 5rem 0;
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* Conhecimentos */
+
+h3{
+  margin-top: 50px;
+}
+
+main.cards {
+  font-family: var(--font-bold);
+  font-size: 14px;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+main.cards section.card {
+  background: var(--bg-colorTwo);
+  width: 400px;
+  margin: 40px;
+  margin-top: -100px;
+}
+
+.card {
+  width: 80px;
+  padding: 80px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
